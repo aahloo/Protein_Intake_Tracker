@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0BF6132EA9516C00217D36 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AC0BF6122EA9516C00217D36 /* README.md */; };
+		AC0BF6172EA9565400217D36 /* RUBRIC.md in Resources */ = {isa = PBXBuildFile; fileRef = AC0BF6162EA9565400217D36 /* RUBRIC.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0BF5EA2EA950A600217D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0BF5D42EA950A500217D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0BF5DB2EA950A500217D36;
+			remoteInfo = "Protein_Cals_App-Basic";
+		};
+		AC0BF5F42EA950A600217D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0BF5D42EA950A500217D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0BF5DB2EA950A500217D36;
+			remoteInfo = "Protein_Cals_App-Basic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0BF5DC2EA950A500217D36 /* Protein_Cals_App-Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protein_Cals_App-Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0BF5E92EA950A600217D36 /* Protein_Cals_App-BasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protein_Cals_App-BasicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0BF5F32EA950A600217D36 /* Protein_Cals_App-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protein_Cals_App-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0BF6122EA9516C00217D36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC0BF6162EA9565400217D36 /* RUBRIC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RUBRIC.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC0BF5DE2EA950A500217D36 /* Protein_Cals_App-Basic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Protein_Cals_App-Basic";
+			sourceTree = "<group>";
+		};
+		AC0BF5EC2EA950A600217D36 /* Protein_Cals_App-BasicTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Protein_Cals_App-BasicTests";
+			sourceTree = "<group>";
+		};
+		AC0BF5F62EA950A600217D36 /* Protein_Cals_App-BasicUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Protein_Cals_App-BasicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0BF5D92EA950A500217D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0BF5E62EA950A600217D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0BF5F02EA950A600217D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0BF5D32EA950A500217D36 = {
+			isa = PBXGroup;
+			children = (
+				AC0BF5DE2EA950A500217D36 /* Protein_Cals_App-Basic */,
+				AC0BF5EC2EA950A600217D36 /* Protein_Cals_App-BasicTests */,
+				AC0BF5F62EA950A600217D36 /* Protein_Cals_App-BasicUITests */,
+				AC0BF5DD2EA950A500217D36 /* Products */,
+				AC0BF6122EA9516C00217D36 /* README.md */,
+				AC0BF6162EA9565400217D36 /* RUBRIC.md */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0BF5DD2EA950A500217D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BF5DC2EA950A500217D36 /* Protein_Cals_App-Basic.app */,
+				AC0BF5E92EA950A600217D36 /* Protein_Cals_App-BasicTests.xctest */,
+				AC0BF5F32EA950A600217D36 /* Protein_Cals_App-BasicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0BF5DB2EA950A500217D36 /* Protein_Cals_App-Basic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0BF5FD2EA950A600217D36 /* Build configuration list for PBXNativeTarget "Protein_Cals_App-Basic" */;
+			buildPhases = (
+				AC0BF5D82EA950A500217D36 /* Sources */,
+				AC0BF5D92EA950A500217D36 /* Frameworks */,
+				AC0BF5DA2EA950A500217D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC0BF5DE2EA950A500217D36 /* Protein_Cals_App-Basic */,
+			);
+			name = "Protein_Cals_App-Basic";
+			packageProductDependencies = (
+			);
+			productName = "Protein_Cals_App-Basic";
+			productReference = AC0BF5DC2EA950A500217D36 /* Protein_Cals_App-Basic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0BF5E82EA950A600217D36 /* Protein_Cals_App-BasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0BF6002EA950A600217D36 /* Build configuration list for PBXNativeTarget "Protein_Cals_App-BasicTests" */;
+			buildPhases = (
+				AC0BF5E52EA950A600217D36 /* Sources */,
+				AC0BF5E62EA950A600217D36 /* Frameworks */,
+				AC0BF5E72EA950A600217D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0BF5EB2EA950A600217D36 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC0BF5EC2EA950A600217D36 /* Protein_Cals_App-BasicTests */,
+			);
+			name = "Protein_Cals_App-BasicTests";
+			packageProductDependencies = (
+			);
+			productName = "Protein_Cals_App-BasicTests";
+			productReference = AC0BF5E92EA950A600217D36 /* Protein_Cals_App-BasicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0BF5F22EA950A600217D36 /* Protein_Cals_App-BasicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0BF6032EA950A600217D36 /* Build configuration list for PBXNativeTarget "Protein_Cals_App-BasicUITests" */;
+			buildPhases = (
+				AC0BF5EF2EA950A600217D36 /* Sources */,
+				AC0BF5F02EA950A600217D36 /* Frameworks */,
+				AC0BF5F12EA950A600217D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0BF5F52EA950A600217D36 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC0BF5F62EA950A600217D36 /* Protein_Cals_App-BasicUITests */,
+			);
+			name = "Protein_Cals_App-BasicUITests";
+			packageProductDependencies = (
+			);
+			productName = "Protein_Cals_App-BasicUITests";
+			productReference = AC0BF5F32EA950A600217D36 /* Protein_Cals_App-BasicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0BF5D42EA950A500217D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					AC0BF5DB2EA950A500217D36 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					AC0BF5E82EA950A600217D36 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = AC0BF5DB2EA950A500217D36;
+					};
+					AC0BF5F22EA950A600217D36 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = AC0BF5DB2EA950A500217D36;
+					};
+				};
+			};
+			buildConfigurationList = AC0BF5D72EA950A500217D36 /* Build configuration list for PBXProject "Protein_Cals_App-Basic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0BF5D32EA950A500217D36;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC0BF5DD2EA950A500217D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0BF5DB2EA950A500217D36 /* Protein_Cals_App-Basic */,
+				AC0BF5E82EA950A600217D36 /* Protein_Cals_App-BasicTests */,
+				AC0BF5F22EA950A600217D36 /* Protein_Cals_App-BasicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0BF5DA2EA950A500217D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0BF6132EA9516C00217D36 /* README.md in Resources */,
+				AC0BF6172EA9565400217D36 /* RUBRIC.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0BF5E72EA950A600217D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0BF5F12EA950A600217D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0BF5D82EA950A500217D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0BF5E52EA950A600217D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0BF5EF2EA950A600217D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0BF5EB2EA950A600217D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0BF5DB2EA950A500217D36 /* Protein_Cals_App-Basic */;
+			targetProxy = AC0BF5EA2EA950A600217D36 /* PBXContainerItemProxy */;
+		};
+		AC0BF5F52EA950A600217D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0BF5DB2EA950A500217D36 /* Protein_Cals_App-Basic */;
+			targetProxy = AC0BF5F42EA950A600217D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC0BF5FB2EA950A600217D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0BF5FC2EA950A600217D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0BF5FE2EA950A600217D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ausahl88.Protein-Cals-App-Basic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0BF5FF2EA950A600217D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ausahl88.Protein-Cals-App-Basic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC0BF6012EA950A600217D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ausahl88.Protein-Cals-App-BasicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protein_Cals_App-Basic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Protein_Cals_App-Basic";
+			};
+			name = Debug;
+		};
+		AC0BF6022EA950A600217D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ausahl88.Protein-Cals-App-BasicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protein_Cals_App-Basic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Protein_Cals_App-Basic";
+			};
+			name = Release;
+		};
+		AC0BF6042EA950A600217D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ausahl88.Protein-Cals-App-BasicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protein_Cals_App-Basic";
+			};
+			name = Debug;
+		};
+		AC0BF6052EA950A600217D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR8U937TF7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ausahl88.Protein-Cals-App-BasicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protein_Cals_App-Basic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0BF5D72EA950A500217D36 /* Build configuration list for PBXProject "Protein_Cals_App-Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0BF5FB2EA950A600217D36 /* Debug */,
+				AC0BF5FC2EA950A600217D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0BF5FD2EA950A600217D36 /* Build configuration list for PBXNativeTarget "Protein_Cals_App-Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0BF5FE2EA950A600217D36 /* Debug */,
+				AC0BF5FF2EA950A600217D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0BF6002EA950A600217D36 /* Build configuration list for PBXNativeTarget "Protein_Cals_App-BasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0BF6012EA950A600217D36 /* Debug */,
+				AC0BF6022EA950A600217D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0BF6032EA950A600217D36 /* Build configuration list for PBXNativeTarget "Protein_Cals_App-BasicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0BF6042EA950A600217D36 /* Debug */,
+				AC0BF6052EA950A600217D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0BF5D42EA950A500217D36 /* Project object */;
+}
