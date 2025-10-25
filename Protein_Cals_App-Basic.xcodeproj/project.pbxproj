@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC0BF6132EA9516C00217D36 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AC0BF6122EA9516C00217D36 /* README.md */; };
-		AC0BF6172EA9565400217D36 /* RUBRIC.md in Resources */ = {isa = PBXBuildFile; fileRef = AC0BF6162EA9565400217D36 /* RUBRIC.md */; };
+		AC7C84B62EAD6CF3000FA989 /* APP_STORE_LISTING.md in Resources */ = {isa = PBXBuildFile; fileRef = AC7C84B52EAD6CF3000FA989 /* APP_STORE_LISTING.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +31,7 @@
 		AC0BF5DC2EA950A500217D36 /* Protein_Cals_App-Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protein_Cals_App-Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0BF5E92EA950A600217D36 /* Protein_Cals_App-BasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protein_Cals_App-BasicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0BF5F32EA950A600217D36 /* Protein_Cals_App-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protein_Cals_App-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC0BF6122EA9516C00217D36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AC0BF6162EA9565400217D36 /* RUBRIC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RUBRIC.md; sourceTree = "<group>"; };
+		AC7C84B52EAD6CF3000FA989 /* APP_STORE_LISTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APP_STORE_LISTING.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -86,8 +84,7 @@
 				AC0BF5EC2EA950A600217D36 /* Protein_Cals_App-BasicTests */,
 				AC0BF5F62EA950A600217D36 /* Protein_Cals_App-BasicUITests */,
 				AC0BF5DD2EA950A500217D36 /* Products */,
-				AC0BF6122EA9516C00217D36 /* README.md */,
-				AC0BF6162EA9565400217D36 /* RUBRIC.md */,
+				AC7C84B52EAD6CF3000FA989 /* APP_STORE_LISTING.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,8 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0BF6132EA9516C00217D36 /* README.md in Resources */,
-				AC0BF6172EA9565400217D36 /* RUBRIC.md in Resources */,
+				AC7C84B62EAD6CF3000FA989 /* APP_STORE_LISTING.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
