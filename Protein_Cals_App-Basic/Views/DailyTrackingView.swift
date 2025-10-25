@@ -12,6 +12,8 @@ struct DailyTrackingView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \NutritionEntry.date, order: .reverse) private var entries: [NutritionEntry]
     
+    let userProfile: UserProfile
+    
     @State private var proteinInput = ""
     @State private var showingAlert = false
     @State private var alertMessage = ""
@@ -26,6 +28,8 @@ struct DailyTrackingView: View {
         NavigationView {
             VStack(spacing: 24) {
                 headerSection
+                
+                dailyTargetsSection
                 
                 inputSection
                 
@@ -57,6 +61,55 @@ struct DailyTrackingView: View {
                 .multilineTextAlignment(.center)
         }
         .padding(.top)
+    }
+    
+    private var dailyTargetsSection: some View {
+        VStack(spacing: 12) {
+            Text("Your Daily Targets")
+                .font(.headline)
+                .foregroundColor(.blue)
+            
+            HStack(spacing: 20) {
+                // Daily Protein Target
+                VStack(spacing: 4) {
+                    Image(systemName: "building.2.fill")
+                        .font(.title2)
+                        .foregroundColor(.blue)
+                    
+                    Text("\(String(format: "%.1f", userProfile.dailyProteinTarget))g")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    
+                    Text("Protein Goal")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color(.systemGray6))
+                .cornerRadius(12)
+                
+                // Daily Calorie Target  
+                VStack(spacing: 4) {
+                    Image(systemName: "flame.fill")
+                        .font(.title2)
+                        .foregroundColor(.orange)
+                    
+                    Text("\(String(format: "%.0f", userProfile.dailyCalorieTarget))")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    
+                    Text("Calorie Goal")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color(.systemGray6))
+                .cornerRadius(12)
+            }
+        }
+        .padding(.horizontal)
     }
     
     private var inputSection: some View {
@@ -210,8 +263,11 @@ extension View {
 
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    let container = try! ModelContainer(for: NutritionEntry.self, configurations: config)
+    let container = try! ModelContainer(for: NutritionEntry.self, UserProfile.self, configurations: config)
     
-    return DailyTrackingView()
+    let sampleProfile = UserProfile(username: "preview", passwordHash: "test")
+    container.mainContext.insert(sampleProfile)
+    
+    return DailyTrackingView(userProfile: sampleProfile)
         .modelContainer(container)
 }

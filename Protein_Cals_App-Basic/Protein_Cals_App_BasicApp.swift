@@ -13,6 +13,7 @@ struct Protein_Cals_App_BasicApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             NutritionEntry.self,
+            UserProfile.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

@@ -12,6 +12,8 @@ struct SummaryView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \NutritionEntry.date, order: .reverse) private var entries: [NutritionEntry]
     
+    let userProfile: UserProfile
+    
     var body: some View {
         NavigationView {
             ScrollView {
@@ -149,7 +151,7 @@ struct SummaryView: View {
                 GoalProgressView(
                     title: "Protein Goal",
                     current: todaysProtein,
-                    goal: 50.0, // Example goal
+                    goal: userProfile.dailyProteinTarget,
                     unit: "g",
                     color: .blue
                 )
@@ -157,7 +159,7 @@ struct SummaryView: View {
                 GoalProgressView(
                     title: "Calorie Goal",
                     current: todaysCalories,
-                    goal: 2000.0, // Example goal
+                    goal: userProfile.dailyCalorieTarget,
                     unit: "cal",
                     color: .orange
                 )
@@ -354,7 +356,7 @@ struct GoalProgressView: View {
 
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    let container = try! ModelContainer(for: NutritionEntry.self, configurations: config)
+    let container = try! ModelContainer(for: NutritionEntry.self, UserProfile.self, configurations: config)
     
     // Add sample data
     let entry1 = NutritionEntry(protein: 25.5, calories: 350)
@@ -364,6 +366,9 @@ struct GoalProgressView: View {
     container.mainContext.insert(entry2)
     container.mainContext.insert(entry3)
     
-    return SummaryView()
+    let sampleProfile = UserProfile(username: "preview", passwordHash: "test")
+    container.mainContext.insert(sampleProfile)
+    
+    return SummaryView(userProfile: sampleProfile)
         .modelContainer(container)
 }
